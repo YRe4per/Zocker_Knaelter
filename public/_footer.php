@@ -7,8 +7,12 @@
 <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 <script>
+
+//alert('klappt');
+
+
 $(document).ready(function(){
-  $('.dropdown-submenu a.test').on("click", function(e){
+  $('.dropdown-submenu a.submenu').on("click", function(e){
     $(this).next('ul').toggle();
     e.stopPropagation();
     e.preventDefault();

@@ -20,6 +20,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Login</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registrieren</a>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Games
@@ -28,15 +31,6 @@
               <a class="dropdown-item" href="#">Beliebteste</a>
               <a class="dropdown-item" href="#">Neuste</a>
               <a class="dropdown-item" href="#">Unsere Empfehlungen</a>
-              <div class="dropdown-item">
-              <div class="btn-group dropright">
-                <button id="lachs" type="button" class="btn btn-secondary dropdown-toggle-lachs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropright</button>
-                <div class="dropdown-menu" aria-labelledby="lachs">
-                  <a class="dropdown-item" href="#">Beliebteste</a>
-                  <a class="dropdown-item" href="#">Neuste</a>
-                  <a class="dropdown-item" href="#">Unsere Empfehlungen</a>
-                </div>
-              </div>
             </div>
         </ul>
         <form class="form-inline my-2 my-lg-0">
