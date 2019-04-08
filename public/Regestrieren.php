@@ -22,7 +22,7 @@
             
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="login.php">Login</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Regestrieren.php">Registrieren</a>
@@ -67,11 +67,14 @@ E-mail: <br>
 </form>
   <form action="/action_page.php">
 Picture: <br>
-      <input type="url" name="website" pattern="https?://.+" title="Include http://">
+<form action="/action_page.php">
+  <input type="file" name="pic" accept="image/*">
+  <input type="submit">
+</form>
 
 </form>
      <br><br>
-  <input type="submit" value="Submit">
+  <input type="submit" value="Angaben abschicken">
   </div>
 
   
