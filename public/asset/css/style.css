@@ -1,5 +1,6 @@
 body {
     background-color: #202124;
+    color: #ffffff;
 }
 
 .dropdown-submenu {
@@ -22,4 +23,28 @@ text-align: center;
 
 color:#28a745;
 text-align: center;
+}
+
+table, tr, th, td {
+    border: 1px solid;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+main {
+    width: 75%;
+    margin: 24px auto;
+}
+.game-image {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.center {
+    text-align: center;
 }

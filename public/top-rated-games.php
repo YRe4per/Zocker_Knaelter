@@ -1,7 +1,7 @@
 <?php
   session_start();
 
-  require_once $_SERVER['DOCUMENT_ROOT'] . '/zocker_knaelter/games.inc.php';
+  require_once $_SERVER['DOCUMENT_ROOT'] . '/zocker_knaelter/top-rated-games.inc.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,7 +13,7 @@
       
     <main>
       <p>
-        <a class="btn btn-outline-success" href="top-rated-games.php">Top rated games</a>
+        <a class="btn btn-outline-success" href="games.php">All games</a>
       </p>
       <table>
         <thead>
